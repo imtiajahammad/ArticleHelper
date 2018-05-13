@@ -108,32 +108,32 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="App_Start\RouteConfig.cs" />
-    <Compile Include="ArrayListUpload.cs" />
-    <Compile Include="ArticleModel.cs" />
+    <Compile Include="BusinessLogics\ArrayListUpload.cs" />
+    <Compile Include="Models\ArticleModel.cs" />
     <Compile Include="Controllers\HomeController.cs" />
-    <Compile Include="CriteriaOneClass.cs" />
-    <Compile Include="CriteriaThreeClass.cs" />
-    <Compile Include="CriteriaTwoClass.cs" />
-    <Compile Include="DatabaseConnectionString.cs" />
-    <Compile Include="DatabaseFunctions.cs" />
-    <Compile Include="DataModel.cs" />
-    <Compile Include="ExtractionOfCharacteristics.cs" />
+    <Compile Include="BusinessLogics\CriteriaOneClass.cs" />
+    <Compile Include="BusinessLogics\CriteriaThreeClass.cs" />
+    <Compile Include="BusinessLogics\CriteriaTwoClass.cs" />
+    <Compile Include="DatabaseLogics\DatabaseConnectionString.cs" />
+    <Compile Include="DatabaseLogics\DatabaseFunctions.cs" />
+    <Compile Include="Models\DataModel.cs" />
+    <Compile Include="BusinessLogics\ExtractionOfCharacteristics.cs" />
     <Compile Include="Global.asax.cs">
       <DependentUpon>Global.asax</DependentUpon>
     </Compile>
-    <Compile Include="HeadingStructureModel.cs" />
-    <Compile Include="IndividualFileRead.cs" />
-    <Compile Include="LineStructureModel.cs" />
-    <Compile Include="LineStructureModelForSubHeadings.cs" />
-    <Compile Include="ListModel.cs" />
+    <Compile Include="Models\HeadingStructureModel.cs" />
+    <Compile Include="BusinessLogics\IndividualFileRead.cs" />
+    <Compile Include="Models\LineStructureModel.cs" />
+    <Compile Include="Models\LineStructureModelForSubHeadings.cs" />
+    <Compile Include="Models\ListModel.cs" />
     <Compile Include="Models\FileUploadModel.cs" />
     <Compile Include="Models\FileUploadModelWIthCriteria.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <Compile Include="SubHeadingDataModel.cs" />
-    <Compile Include="TextPropertyCheckFunctions.cs" />
-    <Compile Include="TextWithFontExtractionStategy.cs" />
-    <Compile Include="TitleModel.cs" />
-    <Compile Include="UploadDataModel.cs" />
+    <Compile Include="Models\SubHeadingDataModel.cs" />
+    <Compile Include="BusinessLogics\TextPropertyCheckFunctions.cs" />
+    <Compile Include="BusinessLogics\TextWithFontExtractionStategy.cs" />
+    <Compile Include="Models\TitleModel.cs" />
+    <Compile Include="Models\UploadDataModel.cs" />
   </ItemGroup>
   <ItemGroup>
     <Content Include="Views\web.config" />
